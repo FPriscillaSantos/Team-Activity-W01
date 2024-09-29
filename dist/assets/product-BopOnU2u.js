@@ -10,7 +10,7 @@ class e {
     constructor(o) {
         this.category = o;
         // Updated path to point to the public folder
-        this.path = `/json/${this.category}.json`;
+        this.path = `public/json/${this.category}.json`;
     }
 
     getData() {
